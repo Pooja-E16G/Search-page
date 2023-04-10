@@ -1,0 +1,77 @@
+.card{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.519);
+    margin: 10px;
+    border-radius: 8px;
+    gap:5px
+}
+
+.like{
+    width: 10px;
+    aspect-ratio: 1/1;
+}
+.card > a{
+    height: 80%;
+}
+.goto{
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+.cardName{
+    flex: 1;
+}
+.animeImg{
+    height: 100%;
+}
+.nick{
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 10000px;
+    margin-left: 5px;
+    padding: 5px;
+}
+header{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    gap: 40px;
+    height: 60vh;
+    background-image: url("../images/demon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header > h1{
+    font-size: 4rem;
+}
+
+header > input{
+    width: 50vw;
+    font-size: 2rem;
+    box-shadow: 5px 5px rgb(130, 129, 129);
+}
+
+.dark{
+   
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        flex-direction:row-reverse;
+        margin-block: 30px;
+        margin: 20px;
+        /* margin-left: 350px;
+        margin-bottom: 50px; */
+        margin: 50px 0 50px 350px;
+   
+      
+}
